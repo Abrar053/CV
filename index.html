@@ -1,92 +1,61 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- language that we used is English-->
+<html lang="en">
 <head>
-    <meta charset="UTF-8"><!--show characters and emojies in our site perfectly-->
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title><!-- Title of the website-->
+    <title>Abrar Ahmad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Merriweather&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico"> <!--it shows the pic with title of website... favicon making site is book marked in google chrome favicon.ico download in same folder of index file-->
 </head>
 <body>
-    <table cellspacing="20"> <!--to space between the table and profile pic
-                            we make this table to show our profile pic and info date in horizental row profile oic on right and data on left-->
-        <tr>
-            <td><img src="Capture.PNG" alt="Weather City"> <!--ali is used for SEO RANKING it is not shown on our website but we use keyword about our picture for SEo--></td>
-            <td><h1>Abrar Ahmad</h1> <!--for making texr a link-->
-                <p>Founder of <i>Al-saif </i><strong> Developers</strong></p> <!-- i tag is used for ittalic text... strong tag is used for bold text-->
-                <p>I am a scenior  web developer in university  of lahore</p></td>
-        </tr>
-    </table>
-    
-    
-    <hr> <!--hr is used for horizental row-->
-    <h3>Books and Teachings</h3>
-    <ul>
-        <li>Windows</li>
-        <li>Mac OS</li>
-    </ul>
-    <h3>Work Experience</h3>
-    <Table border="1">
-        <thead><!--Top row for names it automatically bold letters
-                    table header tag helps us while we are styling in java or css-->
-            <tr>
-                <th>Dates</th>
-                <th>Works</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2010-2013</td>
-                <td>Lead Developer at Temp Apps</td>
-            </tr>
-            
-            <tr>
-                <td>2014-2018</td>
-                <td>Developer at AlSaif News</td>
-            </tr>
-        </tbody>
-    </Table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="5">
-        <tr>
-            <td>
-                <table cellspacing="5">
-                    <tr>
-                        <td>Bootstrap</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Java Script</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>PHp</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Web Developement</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-<hr>
-<br>
-    <!--
-    <h3>My Hobbies</h3>
-    <ol>
-        <li><a href="Playing.com">Playing</a></li> 
-        <li><a href="Swimming.com">Swimming</li> 
-        <li><a href="Singing.com">Singing</li>
-    </ol>
-    we create a new page for my hobbies by adding a new file named my hobbies.html in our base folder wheree all the files are saved-->
-    <a href="Myhobbies.html">My Hobbies</a><br> <!--now when we click on may hobbies on our website it will automatically takes us to the new page that we created as my hobbies-->
-    <a href="Contactus.html">Contact Us</a>
+    <div class="top-container">
+        <img class="cloud-image" class="img1" src="27-cloud-png-image_400x400 (1).png" alt="cloud-png">
+        <h1>I'm Abrar</h1>
+        <p>a web designer</p>
+        <img class="mountain-image" src="36187-4-city-transparent-picture_800x800 (1).png" alt="mountain-png">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="display-pic" src="boy.png" alt="">
+          <h2>Hello.</h2>
+          <p class="intro">I am an IOS Developer.I'm founder and CTO of Alsaif Developers I love Coffee and brew my own beers.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="img-1" src="source-code.png" alt="">
+            <h3>SEO</h3>
+            <p>Search engine optimization (SEO) is the art and science of getting pages to rank higher in search engines such as Google. Because search is one of the main ways in which people discover content online.
+            </p>
+          </div>
+          <div class="skill-row">
+            <img class="img-2" src="browser.png" alt="">
+            <h3>Testing and Debugging</h3>
+            <p>Testing and debugging are important activities during software development and maintenance. Testing is performed to check if the code contains errors whereas de- bugging is done to locate and fix these errors.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you love hot wings as much as i do.</h3>
+          <p class="contact-message">Love hot wings as mch as i do? Let's talk about how awesome they are!</p>
+          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© 2022 Alsaif Developers.</p>
+      </div>
+      
     
 </body>
 </html>
